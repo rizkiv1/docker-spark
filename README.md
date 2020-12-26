@@ -5,7 +5,7 @@ Ini adalah hasil modifikasi dari [repo punya gettyimages](https://github.com/get
 1. Fork/Clone repo ke komputer yang ingin digunakan
 2. Masuk ke direktori
 3. Masukkan perintah `docker build -t rizkiv1/spark:latest .` untuk membuat images baru dengan nama rizkiv1/spark.
-4. Masukkan perintah `docker-compose up -d` untuk menjalankan container. Agar memiliki 2 worker container tambahkan parameter `--scale worker=n` dengan `n` adalah jumlah worker yang ingin dijalankan.
+4. Masukkan perintah `docker-compose up -d` untuk menjalankan container. Agar memiliki banyak worker container tambahkan parameter `--scale worker=n` dengan `n` adalah jumlah worker yang ingin dijalankan.
 5. Untuk mengakses web UI dari master, buka `http://${Alamat_Host}:8080`. Disini kita dapat melihat worker yang jalan.
 
 
